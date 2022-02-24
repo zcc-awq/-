@@ -1,0 +1,489 @@
+*{ 
+	padding:0;
+	margin:0;
+}
+#all{
+	margin: 0 auto;
+	width: 960px;
+	height: 100%;
+	font-family: "微软雅黑";
+	
+}
+.header{
+	width:960px;
+	height:521px;
+	float: left;
+	
+}
+.banner{
+	width:960px;
+	height: 521px;
+	z-index: -1;
+	overflow: hidden;
+}
+.banner ul{
+   width:4800px;
+	height:521px; 
+	/*animation:tjcu 15s 0s alternate ease-in-out infinite;*/
+	animation:tjcu 15s 0s normal  infinite step-start;
+	
+	
+}
+@keyframes tjcu{
+	0%{
+	    margin-left: 0;
+    }
+	25%{
+		margin-left:-960px;
+	}
+	50%{
+		margin-left:-1920px;
+	}
+	75%{
+		margin-left:-2880px;
+	}
+	
+	100%{
+		margin-left:0px;
+	}
+	
+}
+.banner li{
+	width:960px;
+	height:521px;
+	float: left;
+	list-style: none;
+    
+	
+}
+.banner img{
+	width: 960px;
+	height: 521px;
+	
+}
+.header-1{
+	height: 100px;
+	width: 70px;
+	float: left;
+	background-color: white;
+	margin-left: 60px;
+	margin-top: -521px;
+}
+.header-2{
+	height: 70px;
+	width: 70px;
+	float: left;
+	background-color: white;
+	margin-top: -461px;
+	border-radius: 50%;
+	margin-left: 60px;
+	z-index: 1;
+}
+.header-3{
+	height: 70px;
+	width: 70px;
+	float: left;
+	margin-top:-507px;
+	color: white;
+	font-size: 15px;
+	margin-left: 150px;
+}
+.graduation{
+	width: 500px;
+	height: 300px;
+	float: left;
+	margin-left:300px;
+	margin-top: -451px;
+}
+
+.header-4{
+	width: 600px;
+	height:20px;
+	float: left;
+	font-family: 默陌专辑手写体;
+	font-size: 15px;
+	color: white;
+	margin-top: -160px;
+	margin-left: 265px;
+}
+.header-5{
+	width: 300px;
+	height:20px;
+	float: left;
+	font-family: 默陌专辑手写体;
+	font-size: 15px;
+	color: white;
+	margin-top: -133px;
+	margin-left:520px;
+}
+.content{
+	width: 960px;
+	height: 3000px;
+	float: left;
+	background-image: url(../img/毕设/水墨背景.png);
+	background-color: #f9fef7;
+}
+.contentFirst{
+	float: left;
+	width: 520px;
+	height: 520px;
+	border-radius: 50%;
+	background-color: #f0f0f0;
+	margin-left: 50px;
+	margin-top: -50px;
+
+}
+.contentSecond{
+	float: left;
+	width:640px;
+	height: 520px;
+	background-color: #f0f0f0;
+	margin-top: -520px;
+	margin-left: 320px;
+	box-shadow:0px 15px 10px -15px #888888;
+}
+.maybe{
+	float: left;
+	width: 100px;
+	height: 200px;
+	margin-left:75px;
+	margin-top: 90px;
+}
+.type{
+	width:706px ;
+	height:130px;
+	float: left;
+	margin-left: -66px;
+	margin-top: 110px;
+}
+.typeFirst{
+	float: left;
+	width:570px;
+	height: 29px;
+	color: #062408;
+	font-size: 21px;
+	font-family: 宋体;
+}
+.butterflies{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-top: 100px;
+    z-index: 1;
+	margin-left: -100px;
+}
+.photoFirst{
+	float: left;
+	width: 490px;
+	height: 350px;
+	transform: rotate(-7deg);
+	margin-top: 30px;
+	box-shadow: 3px 5px 5px #888888;
+	margin-left: 60px;
+}
+.contentThird{
+	float: left;
+	width:960px ;
+	height:1120px;
+}
+.typeSecond{
+	float: left;
+	color:#062408;
+	font-family:Calisto MT;
+	font-size:25px;
+	margin-top: 40px;
+	margin-left: 100px;
+	width:600px;
+	height: 27px;
+	
+}
+.typeThird{
+	float: left;
+	color:#062408;
+	font-family:Calisto MT;
+	font-size:25px;
+	margin-left:185px;
+	width: 600px;
+	height: 27px;
+}
+.typeForth{
+	float: left;
+	color:#062408;
+	font-family:Calisto MT;
+	font-size:25px;
+	margin-left:310px;
+	width: 150px;
+	height: 27px;
+	margin-top:30px;
+}
+.typefifth{ 
+	float: left;
+	color:#062408;
+	font-family:Calisto MT;
+	font-size:25px;
+	margin-left:245px;
+	width: 200px;
+	height: 30px;
+	margin-top: -227px;
+}
+.jiantou{
+	float: left;
+	height: 250px;
+    width: 250px;
+	margin-top:30px;
+	margin-left:100px;
+}
+.litte{
+	float: left;
+	width:20px;
+	height:20px;
+	margin-top: 144px;
+	margin-left:-252px;
+}
+.photoSecond{
+	float: left;
+	width: 540px;
+	height: 350px;
+	transform: rotate(7deg);
+	margin-top:-110px;
+	box-shadow: 3px 5px 5px #888888;
+	margin-left: 54px;
+	z-index: 1;
+}
+.typeSixth{
+	width:300px ;
+	height:130px;
+	float: left;
+	margin-left: 50px;
+	margin-top: -30px;
+}
+.contentForth{
+	float: left;
+	width:640px;
+	height: 520px;
+	background-color: #f0f0f0;
+	margin-top: -15px; 
+	box-shadow: 0px 15px 10px -15px #888888; 
+}
+.contentFifth{
+	float: left;
+	width: 520px;
+	height: 520px;
+	border-radius: 50%;
+	background-color: #f0f0f0;
+	 margin-left: 370px; 
+	 margin-top: -520px; 
+}
+.summer{
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin-top:70px;
+}
+.typeSeventh{
+	width:670px ;
+	height:130px;
+	float: left;
+	margin-left: -200px;
+	margin-top: 180px;
+}
+.contentSixth{
+	float: left;
+	width: 960px;
+	height:1150px;
+}
+.big{
+	float: left;
+	height:480px;
+	width: 250px;
+	margin-top: -210px;
+	margin-left: 20px;
+}
+.typeEighth{
+	width:370px ;
+	height:100px;
+	float: left;
+	margin-left: -150px;
+	margin-top: 100px;
+}
+.typeNighth{
+	float: left;
+	width:370px;
+	height: 29px;
+	color: #062408;
+	font-size: 21px;
+	font-family: 宋体;
+}
+.typeTenth{
+	width:370px ;
+	height:100px;
+	float: left;
+	margin-left: -370px;
+	margin-top: 200px;
+}
+.photoThird{
+	float: left;
+	height: 490px;
+	width: 350px;
+	margin-top:-210px ;
+	margin-left:30px ;
+	transform: rotate(7deg);
+}
+.bird{
+	float: left;
+	width: 350px;
+	height: 400px;
+	opacity: 0.5;
+}
+.butterfliesSecond{
+	float: left;
+	width: 70px;    height: 70px;
+	margin-top:100px;
+	margin-left: 30px;
+}
+.typeEleventh{
+	width:370px ;
+	height:130px;
+	float: left;
+	margin-top: 80px;
+	margin-left:90px;
+}
+.photoForth{
+	float: left;
+	width: 490px;
+	height: 350px;
+	transform: rotate(7deg);
+	margin-top: 120px;
+	margin-left: -300px;
+}
+.typeTwelveth{
+	width:320px ;
+	height:160px;
+	float: left;
+	margin-left: 80px;
+	margin-top:40px;
+}
+.type-13{
+	float: left;
+	width:320px;
+	height: 29px;
+	color: #062408;
+	font-size: 21px;
+	font-family: 宋体;
+}
+.lowBig{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-left:-60px;
+	margin-top:40px;
+}
+.leave{
+	float: left;
+	width: 500px;
+	height: 400px;
+	margin-left:460px;
+	margin-top: -210px;
+}
+.Type{
+	float: left;
+	width:800px;
+	height: 30px;
+	margin-top:-110px;
+	margin-left:35px ;
+}
+.type-14{
+	float: left;
+	width:800px;
+	height: 30px;
+	color: #062408;
+	font-size: 21px;
+	font-family: 宋体;
+}
+.contentSeventh{
+	width:960px;
+	height:514px;
+	float: left;
+	background-image: url(../img/毕设/6图.jpg);
+}
+.contentEighth{
+	float: left;
+	width: 960px;
+	height: 100px;
+	background-color:#fcfefd;
+	box-shadow:inset 0px -13px 15px -15px #888888; 
+	border-bottom: 1px solid gainsboro;
+}
+.type-15{
+	float: left;
+	width:800px;
+	height: 30px;
+	color: #062408;
+	font-size: 16px;
+	font-family: 宋体;
+	margin-top:30px;
+	margin-left: 140px;
+}
+.type-16{
+	float: left;
+	width:500px;
+	height: 30px;
+	color: #062408;
+	font-size: 16px;
+	font-family: 宋体;
+	margin-left: 280px;
+}
+
+.contentNighth{
+	float: left;
+	width: 960px;
+	/* height:213px; */
+	background-color:#fdfdfd;
+	
+}
+.underline{
+	width:420px;
+	height:60px;
+	float: left;
+	border-bottom: 1px solid #062408;
+}
+.youngon{
+	float: left;
+	width:100px;
+	height:30px;
+	color: #062408;
+	font-size: 14px;
+	margin-top:50px;
+	margin-left: 10px;
+}
+.underlineSecond{
+	width:420px;
+	height:60px;
+	float: left;
+	border-bottom: 1px solid #062408;
+	margin-left: 10px;
+}
+
+.address{
+	float: left;
+	height:30px ;
+	width: 500px;
+	margin-top: 7px;
+	margin-left:230px ;
+	padding-bottom: 27px;
+}
+.last{
+	float: left;
+	width: 960px;
+	height: 40px;
+	background-color: #fcfefd;
+	box-shadow:inset 0px 12px 10px -15px #888888; 
+}
+.type-17{
+	float: left;
+	width:500px;
+	height: 30px;
+	color: #062408;
+	font-size: 21px;
+	font-family: 宋体;
+}

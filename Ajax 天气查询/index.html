@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>天气查询</title>
+	</head>
+	<body>
+		<h1>城市天气预报查询</h1>
+		<input type="text" />
+		<button>查询(输入城市名)</button>
+		<div class="box">
+			<h3 class="city"></h3>
+			<p class="udt"></p>
+			<p class="wendu"></p>
+		</div>
+		<script type="text/javascript">
+			let btn = document.querySelector("button");
+			let txt = document.querySelector("input");
+			btn.onclick = function() {
+				let val = txt.value;
+				let xhr = new XMLHttpRequest();
+				xhr.open('get', 'http://wthrcdn.etouch.cn/WeatherApi?city=' + val);
+				xhr.onreadystatechange = function() {
+					if (xhr.readyState == 4 && xhr.status == 200) {
+						let resp = xhr.responseXML.querySelector('resp');
+						let city = resp.querySelector('city').innerHTML;
+						let updatetime = resp.querySelector('updatetime').innerHTML;
+						let wendu = resp.querySelector('wendu').innerHTML;
+						document.querySelector(".city").innerHTML = '查询的城市是：' + city;
+						document.querySelector(".udt").innerHTML = '更新的时间是：' + updatetime;
+						document.querySelector(".wendu").innerHTML = '现在的温度是：' + wendu + '℃';
+					}
+				}
+				xhr.send();
+			}
+		</script>
+	</body>
+</html>

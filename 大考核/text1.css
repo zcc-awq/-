@@ -1,0 +1,31 @@
+
+.tab-item{ 
+			list-style:none;
+			font-family:"黑体"
+			font-size:18px;
+			text-decoration:none;
+			cursor:pointer;
+			float:left;
+			border:5px darkgray solid;
+			overflow:hidden;
+			background-image:none;
+			margin:-10px 120px;
+		}
+		
+		.k{
+			height:50px;
+			width:1360px;
+			border:greenyellow 5px solid;
+		}
+		.k{display: block;margin-left: auto;margin-right: auto;}
+     a{text-decoration:none;}
+  body {
+  animation: change 4s linear 0s infinite;
+  }
+  @keyframes change {
+  0% {color: #333;}
+  25% {color: #f60;}
+  50% {color: #ff0000;}
+  75% {color: #ADFF2F;}
+  100% {color: #00BCD4;}
+  }
