@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>冷小鲜</title>
+		<link rel="stylesheet" href="./layui/css/layui.css">
+
+	</head>
+	<body>
+		<div class="layui-layout layui-layout-admin" background-image="linear-gradient(135deg,red, yellow, blue)">
+			<div class="layui-header " style="background-image:linear-gradient(135deg,#2f183f, #195160, #029386) ;">
+				<div class="layui-logo layui-hide-xs layui-bg-black" style="background-color: transparent!important;">
+					<img src="img/全球跨境.png" >&nbsp;
+					<font size="5">冷小鲜</font> 
+				</div>
+				<!-- 头部区域 -->
+				<ul class="layui-nav layui-layout-left">
+					<!-- 移动端显示 -->
+					<li class="layui-nav-item layui-show-xs-inline-block layui-hide-sm" lay-header-event="menuLeft">
+						<i class="layui-icon layui-icon-spread-left"></i>
+					</li>
+					<li class="layui-nav-item layui-hide-xs">
+						<a href=""><img src="img/首页.png" />&nbsp;&nbsp;首页</a>
+					</li>
+
+				</ul>
+				<ul class="layui-nav layui-layout-right">
+					<li class="layui-nav-item layui-hide layui-show-md-inline-block">
+						<a href="javascript:;">
+							<img src="img/闹铃.png" />&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="//tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
+								class="layui-nav-img">
+							管理员
+						</a>
+						<dl class="layui-nav-child">
+							<dd><a href="">你的账号</a></dd>
+							<dd><a href="">设置</a></dd>
+							<dd><a href="">退出登录</a></dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
+						<a href="javascript:;">
+							<img src="img/关机.png" width="25px" />
+							<!-- <i class="layui-icon layui-icon-more-vertical"></i> -->
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="layui-side layui-bg-black">
+				<div class="layui-side-scroll"
+					style="background-image:linear-gradient(135deg,#029386, #195160,#2f183f ) ;">
+					<!-- 左侧导航区域 -->
+					<ul class="layui-nav layui-nav-tree" lay-filter="test"
+						style="background-color: transparent!important;">
+						<li class="layui-nav-item layui-nav-itemed">
+							<a href="javascript:;"><img src="img/菜单.png" height="13px" />&nbsp;&nbsp;产品管理</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><img src="img/设备管理.png">&nbsp;&nbsp;设备管理</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><img src="img/监控.png">&nbsp;&nbsp;冷链监控</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><img src="img/货车.png">&nbsp;&nbsp;品质管理</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><img src="img/预测.png">&nbsp;&nbsp;品质预测</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><img src="img/预警统计.png">&nbsp;&nbsp;品质预警</a>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><img src="img/账号权限管理.png">&nbsp;&nbsp;权限管理</a>
+						</li>
+						<li class="layui-nav-item"><a href="javascript:;">系统设置</a></li>
+
+					</ul>
+				</div>
+			</div>
+
+			<div class="layui-body">
+				<!-- 内容主体区域 -->
+			</div>
+
+		</div>
+		<script src="./layui/layui.js"></script>
+
+	</body>
+</html>
